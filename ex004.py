@@ -1,0 +1,8 @@
+alg = input('Digite algo:')
+print('O que você digitou é do tipo:', type(alg))
+print('O que você digitou é uma letra ou palavra?', alg.isalpha())
+print('O que você digitou está em maiúsculo?', alg.isupper())
+print('O que você digitou está em minúsculo?', alg.islower())
+print('O que você digitou é apenas espaço?', alg.isspace())
+print('O que você digitou está capitalizado?', alg.istitle())
+print('Legal! Você digitou: {0}.'.format(alg))
